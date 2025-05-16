@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tanyasharma/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Dtos/Dtos.csproj": {}
+  },
+  "projects": {
+    "/Users/tanyasharma/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Domian/Domian.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tanyasharma/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Domian/Domian.csproj",
+        "projectName": "Domian",
+        "projectPath": "/Users/tanyasharma/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Domian/Domian.csproj",
+        "packagesPath": "/Users/tanyasharma/.nuget/packages/",
+        "outputPath": "/Users/tanyasharma/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Domian/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tanyasharma/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/tanyasharma/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Dtos/Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tanyasharma/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Dtos/Dtos.csproj",
+        "projectName": "Dtos",
+        "projectPath": "/Users/tanyasharma/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Dtos/Dtos.csproj",
+        "packagesPath": "/Users/tanyasharma/.nuget/packages/",
+        "outputPath": "/Users/tanyasharma/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Dtos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tanyasharma/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/tanyasharma/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Domian/Domian.csproj": {
+                "projectPath": "/Users/tanyasharma/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Ecommerce-WebSite-Use-API-And-MVC-And-Angular-FinalProject-ITI-/Domian/Domian.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
